@@ -100,7 +100,7 @@ const InformationAll = ({allData}) => {
             </Box>
         <Grid container >
             
-            <Grid sx={{p:4}} item xs={4}>
+            <Grid sx={{p:4}} item xs={12} sm={6} md={4}>
                 <Box sx={{textAlign:"start"}}>
                 <Typography  sx={{fontSize:"25px",fontWeight:600}} variant="h5" gutterBottom>
                     {singlePersonInfo?.ID}
@@ -124,7 +124,9 @@ const InformationAll = ({allData}) => {
                 </Typography>
                 </Box>
             </Grid>
-            <Grid item xs={4}>
+
+
+            <Grid item xs={12} sm={6} md={4}>
             <Box sx={{textAlign:"start"}}>
                 <Typography  sx={{fontWeight:600}} variant="h5" gutterBottom>
                 {singlePersonInfo?.Gender}
@@ -133,7 +135,10 @@ const InformationAll = ({allData}) => {
             </Box>
                
             </Grid>
-            <Grid sx={{border:"5px solid gray"}} item xs={4}>
+
+
+
+            <Grid sx={{border:"5px solid gray"}} item xs={12} sm={6} md={4}>
                 <Box sx={{display:'flex',alignItems:"center", justifyContent:"space-between"}}>
                     <Box>
                         <Typography sx={{textAlign:'start',p:1,color:""}} variant="h5" gutterBottom>
